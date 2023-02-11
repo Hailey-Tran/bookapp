@@ -1,0 +1,34 @@
+.imagecredits {
+    padding: 3rem 0;
+}
+
+.imagecredits-content {
+    gap: 4rem;
+}
+
+.imagecredits-title {
+    margin: 1rem 0;
+}
+
+.imagecredits-img img{
+    max-width: 520px;
+}
+
+.imagecredits-text p{
+    margin: 1.8rem 0;
+    opacity: 0.8;
+}
+
+@media screen and (min-width: 800px) {
+    .imagecredits-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .imagecredits-title {
+        margin-top: 0;
+    }
+
+    .about-img img {
+        margin-left: 0;
+    }
+}
